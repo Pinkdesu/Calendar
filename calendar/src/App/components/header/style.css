@@ -1,0 +1,26 @@
+.header-wrapper {
+  width: 100%;
+  height: 20px;
+  background-color: #f2e0c0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+.text-wrapper {
+  font-size: 12px;
+  margin: 4px 0 4px 4px;
+  align-self: flex-start;
+}
+.fa-eye:hover{
+  background-color: #eacd9a;
+}
+.fa-eye{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 18px;
+  padding: 1px 5px 1px 5px;
+}

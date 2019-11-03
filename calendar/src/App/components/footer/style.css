@@ -1,0 +1,30 @@
+.footer {
+    height: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.amount {
+    font-size: 13.3333px;
+}
+
+.btn-group {
+    position: relative;
+    z-index: 1;
+}
+
+.filter-btn {
+    margin: 3px;
+    padding: 3px 7px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    border-color: rgba(175, 47, 47, 0.2);
+}

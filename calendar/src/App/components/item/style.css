@@ -1,0 +1,41 @@
+.cell{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  font-size: 18px;
+  height: 25px;
+  width: 25px;
+  color: #231F20;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+.cell:hover{
+  border-color: #e9e9e9;
+}
+.cell:active{
+  background-color: #e9e9e9;
+}
+.event-div{
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  width: 100%;
+}
+.event-div > svg{
+  height: 5px;
+  width: 5px;
+}
+.date-num{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 20px;
+}
+.last-month{
+  color: lightgray;
+}
+.today {
+  color: red;
+}

@@ -1,0 +1,84 @@
+.todo-item{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    background: #FEFEFE;
+    color: #231F20;
+    z-index: 0;
+}
+.todo-item:before {
+    position: absolute;
+    top: -0.7em;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #231F20;
+    background: #FEFEFE;
+    border-radius: 50%;
+    counter-increment: li;
+    content: counter(li);
+}
+.todo-item-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo-item-main{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-family: 'Indie Flower';
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.double-icon-bar{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 40px;
+}
+
+.todo-item .fa-angle-down, .fa-angle-up{
+    transition: all .3s ease;
+    color: lightgray;
+}
+
+.completed,
+.todo-item .fa-check-circle {
+    color: #ccc;
+}
+
+.todo-item .fa-times {
+    transition: all .3s ease;
+    color: rgba(175, 47, 47, 0.3);
+}
+
+.mark {
+    width: 19.375px;
+    height: 19.375px;
+    text-align: center;
+}
+
+.todo-item-header .fa-times:hover {
+    color: rgba(175, 47, 47, 0.9);
+}
+
+.todo-item-header .fa-angle-down:hover  {
+    color: #231F20;
+}
+
+.todo-item-header .fa-angle-up:hover {
+    color: #231F20;
+}

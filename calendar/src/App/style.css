@@ -1,0 +1,38 @@
+*{
+  font-family: "Trebuchet MS", "Lucida Sans";
+  margin: 0;
+  padding: 0;
+}
+.cursor-pointer:hover{
+  cursor: pointer;
+}
+.calendar-wrapper {
+  max-width: 350px;
+  bottom: 30px;
+  right: 20px;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 1px 1px  rgba(0, 0, 0, 0.3),
+              0 2px 4px 0 rgba(0, 0, 0, 0.2),
+              0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.fa-calendar-alt{
+  font-size: 3em;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.calendar-wrapper:before {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
+              0 8px 0 -3px #f6f6f6,
+              0 9px 1px -3px rgba(0, 0, 0, 0.2),
+              0 16px 0 -6px #f6f6f6,
+              0 17px 2px -6px rgba(0, 0, 0, 0.2);
+}

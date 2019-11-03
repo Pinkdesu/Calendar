@@ -1,0 +1,49 @@
+.task-panel-wrapper{
+  display: flex;
+  flex-flow: column nowrap;
+  width: calc(100% - 10px);
+  padding: 0 5px;
+  align-items: stretch;
+  height: 100%;
+}
+.open-panel{
+  display: flex;
+  flex-flow: column nowrap;
+}
+.opened{
+  height: 100%;
+}
+.open-panel-head{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.open-panel-head  span{
+  height: 20px;
+  font-size: 18px;
+}
+.task-panel-main{
+  display: flex;
+  width: 100%;
+  flex-flow: column nowrap;
+}
+.task-panel-main label{
+  margin: 5px 0;
+}
+.task-panel-main #task-lid{
+  min-height: 35px;
+  max-height: 35px;
+  min-width: calc(100% - 6px);
+  max-width: calc(100% - 6px);
+}
+.task-panel-main #task-time{
+  text-align: center;
+}
+.task-panel-main button{
+  margin-top: 5px;
+  height: 25px;
+}
+.fa-plus, .fa-minus{
+  font-size: 1.2em;
+}
