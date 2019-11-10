@@ -28,10 +28,10 @@ class TaskItem extends Component{
             <i onClick={() => removeTask(id)} className='fas fa-times cursor-pointer'></i>
           </div>
         </div>
-        {isCollapsed ? null : 
+        {isCollapsed && 
           <div className="todo-item-main">
-            <span className="item-lid text">{lid}</span>
-            <span className="item-time text">Время: {time}</span>
+            <span className="item-lid">{lid}</span>
+            <span className="item-time">Время: {time}</span>
           </div>
         }
       </li>

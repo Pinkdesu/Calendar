@@ -35,10 +35,6 @@
     align-items: center;
 }
 
-.text {
-    font-family: 'Indie Flower';
-}
-
 .completed {
     text-decoration: line-through;
 }
