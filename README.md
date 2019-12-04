@@ -4,4 +4,3 @@ Calendar with events:
 
 Link to view: https://calendar-sooty-xi.now.sh/
 
-Profile on ZEIT: https://zeit.co/unodesu
